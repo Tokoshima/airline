@@ -5,4 +5,13 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Remove="Pages\airline.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Pages\airline.cshtml.cs" />
+      <Compile Remove="Pages\Airline.cs" />
+    </ItemGroup>
+
 </Project>

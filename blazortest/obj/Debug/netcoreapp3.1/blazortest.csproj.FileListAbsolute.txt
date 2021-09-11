@@ -46,3 +46,5 @@
 /home/louwster3000/RiderProjects/blazortest/blazortest/obj/Debug/netcoreapp3.1/blazortest.csproj.CopyComplete
 /home/louwster3000/RiderProjects/blazortest/blazortest/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/FetchData.razor.g.cs
 /home/louwster3000/RiderProjects/blazortest/blazortest/obj/Debug/netcoreapp3.1/Razor/Pages/FetchData.razor.g.cs
+/home/louwster3000/RiderProjects/blazortest/blazortest/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Airline.razor.g.cs
+/home/louwster3000/RiderProjects/blazortest/blazortest/obj/Debug/netcoreapp3.1/Razor/Pages/Airline.razor.g.cs
