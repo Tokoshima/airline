@@ -1,0 +1,43 @@
+<h3>Aircraft</h3>
+@inject blazortest.Data.AircraftIE AircraftService;
+
+<table class="table">
+    <thead>
+    <tr>
+        <td>Registration</td>
+        <td>Manufacturer</td>
+        <td>Cap</td>
+        <td>Aircraft Type</td>
+    </tr>       
+    </thead>
+    <tbody>
+        @foreach (var plane in aircraft)
+        {
+            <tr>
+                <td>@plane.Registration</td>
+                <td>@plane.Manufacturer</td>
+                <td>@plane.Passenger</td>
+                <td>@plane.AircraftType</td>
+                <td>
+                   <form method="get" action="plane/@plane.Registration">
+                       <button class="btn btn btn-primary" type="submit">Continue</button>
+                   </form>
+                </td>
+                <td>
+                    <button class="btn btn btn-danger">Delete</button>
+                    
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+
+    private List<Data.Aircraft> aircraft;
+    protected override void OnInitialized()
+    {
+        aircraft = AircraftService.GetAircraft();
+    }
+    
+}

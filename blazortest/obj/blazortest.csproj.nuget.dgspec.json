@@ -35,6 +35,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[19.2.0.60, )"
+            },
+            "Syncfusion.Blazor.Grid": {
+              "target": "Package",
+              "version": "[19.2.0.60, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

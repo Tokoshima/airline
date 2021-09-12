@@ -72,6 +72,20 @@ using blazortest.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/home/louwster3000/RiderProjects/blazortest/blazortest/_Imports.razor"
+using Syncfusion.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "/home/louwster3000/RiderProjects/blazortest/blazortest/_Imports.razor"
+using Syncfusion.Blazor.Grids;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

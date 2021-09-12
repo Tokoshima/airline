@@ -14,4 +14,9 @@
       <Compile Remove="Pages\Airline.cs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Syncfusion.Blazor" Version="19.2.0.60" />
+      <PackageReference Include="Syncfusion.Blazor.Grid" Version="19.2.0.60" />
+    </ItemGroup>
+
 </Project>
